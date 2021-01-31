@@ -1,6 +1,5 @@
 import React from 'react';
 import Index from './pages/Index';
-import { Header } from './components/Header';
 import Sessions from './pages/Sessions';
 import Preferences from './pages/Preferences';
 

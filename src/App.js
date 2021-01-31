@@ -12,7 +12,6 @@ export const App = () => {
                 <Route exact path="/" render={() => <Index page="home" />} />
                 <Route exact path="/sessions" render={() => <Sessions page="sessions" />} />
                 <Route exact path="/preferences" render={() => <Preferences page="preferences" />} />
-                <Route exact path="/preferences/update" render={() => <Preferences page="preferences" />} />
             </Router>
         </div>
     )
